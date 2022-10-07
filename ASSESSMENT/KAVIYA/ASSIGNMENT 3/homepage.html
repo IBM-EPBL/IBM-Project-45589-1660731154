@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/home.css">
+</head>
+<body>   
+<h1>👋 WELCOME!</h1><br></br>
+<h1>NEWS TRACKER APPLICATION</h1><br></br>
+        <img src ="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/img%201.webp">
+        <img src ="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/img2.jpg">
+        <img src ="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/img3.jpg"> 
+        <img src ="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/img4.jpg">
+        <img src ="https://news1234.s3.jp-tok.cloud-object-storage.appdomain.cloud/img5.webp">   
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "ab5677cb-daef-4b35-a524-6fa81cf382fb", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "09dca035-c298-49d7-b41b-4c3cf65f7ab0", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+           </body>
+</html>
